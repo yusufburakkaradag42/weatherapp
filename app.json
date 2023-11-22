@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "weatherapp",
-    "slug": "weatherapp",
+    "name": "app-ui",
+    "slug": "app-ui",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.yusufburakkaradag.appui"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e423523-5028-424f-b16a-52d1072b830e"
+      }
     }
   }
 }
