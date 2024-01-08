@@ -18,6 +18,7 @@ export default function HomeScreen() {
   const [weather, setWeather] = useState({})
 
 
+
   const handleSearch = search=>{
     // console.log('value: ',search);
     if(search && search.length>2)
